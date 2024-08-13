@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Figtree', sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+img {
+    border-radius: 10px;
+    margin-block-start: 24px;
+    margin-inline: 24px;
+    margin-block-end: 12px;
+}
+.blog-preview-p, h3, h2, h1 {
+    line-height: 150%;
+    margin-inline: 24px;
+}
+.blog-preview-p {
+    font-size: clamp(12px, 1em, 14px);
+    color: hsl(0, 0%, 7%);
+    font-variation-settings: 'wght' 900;
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    border-radius: 4px;
+    padding-inline: 12px;
+    padding-block: 4px;
+    margin-block-start: 12px;
+    margin-block-end: 6px;
+}
+h3 {
+    font-size: clamp(12px, 1em, 14px);
+    font-variation-settings: 'wght' 600;
+    line-height: 150%;
+    color: hsl(0, 0%, 7%);
+    margin-block: 6px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: clamp(20px, 1.7em, 24px);
+    font-variation-settings: 'wght' 900;
+    color: hsl(0, 0%, 7%);
+    line-height: 150%;
+    margin-block: 6px;
+}
+h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+h1:focus {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+h2 {
+    font-size: clamp(14px, 1.15em, 16px);
+    font-variation-settings: 'wght' 600;
+    color: hsl(0, 0%, 42%);
+    margin-block: 6px 12px;
+}
+.blog-preview {
+    width: clamp(327px, 384px, 384px);
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    filter: drop-shadow(8px 8px black);
+}
+.blog-preview-author {
+    display: flex;
+    align-items: center;
+    margin-block: 12px 24px;
+}
+.blog-preview-author > p {
+    font-size: 1em;
+    color: hsl(0, 0%, 7%);
+    font-variation-settings: 'wght' 900;
+    line-height: 150%;
+    margin-inline-start: 6px;
+    
+}
+.blog-preview-author > img {
+    margin: 0;
+    margin-inline: 24px 6px;
+    height: 2em;
+    width: auto;
+    align-self: center;
+}
+.attribution {
+    width: clamp(327px, 384px, 384px);
+}
+.attribution {
+    font-size: clamp(7px, 12px, 1em);
+    text-align: center;
+}
